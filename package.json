@@ -1,0 +1,18 @@
+{
+  "name": "bathini-bona-admin-standalone",
+  "private": true,
+  "version": "2.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @bbm/admin",
+    "build": "npm run build -w @bbm/admin",
+    "start": "npm run start -w @bbm/admin",
+    "typecheck": "npm run typecheck -w @bbm/admin"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
